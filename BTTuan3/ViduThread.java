@@ -10,7 +10,7 @@ public class ViduThread extends Thread{
         ViduThread t1 = new ViduThread();
         ViduThread t2 = new ViduThread();
 
-        // Thread.sleep(2000);
+         Thread.sleep(2000);
         t1.setPriority(MIN_PRIORITY);
         t2.setPriority(MAX_PRIORITY);
         t1.start();
