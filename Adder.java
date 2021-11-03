@@ -2,5 +2,6 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface Adder extends Remote{
-    String sayHello() throws RemoteException;
+    int Cong(int a,int b) throws RemoteException;
+    int Tru(int a,int b) throws RemoteException;
 }

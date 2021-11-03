@@ -11,10 +11,10 @@ public class RMIServer {
             //tao doi tuong
             AdderImpl obj = new AdderImpl();
             //dang ki ten
-            LocateRegistry.createRegistry(6667);
-            Registry reg = LocateRegistry.getRegistry(6667);
+            LocateRegistry.createRegistry(11114);
+            Registry reg = LocateRegistry.getRegistry(11114);
             reg.bind("HelloObj", obj);
-            System.out.println("Hello Object is registried");
+            System.out.println("CALC Object is registried");
         } catch (Exception e) {
             System.out.println("Error"+e);
         }
